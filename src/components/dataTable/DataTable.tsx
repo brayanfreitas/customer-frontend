@@ -4,7 +4,6 @@ import {
   GridToolbar,
 } from "@mui/x-data-grid";
 import "./dataTable.scss";
-import { Link } from "react-router-dom";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 
 type Props = {

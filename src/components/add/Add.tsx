@@ -2,7 +2,6 @@ import { GridColDef } from "@mui/x-data-grid";
 import "./add.scss";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { useState } from "react";
-import { json } from "react-router-dom";
 
 type Props = {
   slug: string;
