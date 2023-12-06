@@ -4,13 +4,12 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        <img src="logo.svg" alt="" />
         <span>Dash</span>
       </div>
       <div className="icons">
         <div className="user">
           <img
-            src=""
+            src="https://seeklogo.com/images/P/pink-floyd-logo-CE6D13EDCA-seeklogo.com.png"
             alt=""
           />
           <span>Brayan</span>
