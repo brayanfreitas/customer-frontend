@@ -10,6 +10,7 @@ import {
   QueryClient,
   QueryClientProvider,
 } from "@tanstack/react-query";
+import Motivation from "./pages/motivation/Motivation";
 
 const queryClient = new QueryClient();
 
@@ -45,6 +46,10 @@ function App() {
         {
           path: "/users",
           element: <Users />,
+        },
+        {
+          path: "/motivation",
+          element: <Motivation />,
         },
       ],
     },

@@ -22,6 +22,18 @@ export const menu = [
         icon: "user.svg",
       }
     ],
+  },
+  {
+    id: 3,
+    title: "lists",
+    listItems: [
+      {
+        id: 1,
+        title: "Motivation",
+        url: "/motivation",
+        icon: "element.svg",
+      }
+    ],
   }
 ];
 

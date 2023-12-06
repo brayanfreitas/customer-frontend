@@ -1,0 +1,14 @@
+.motivation-container{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+
+  p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin-top: 40px;
+    width: 50%;
+  }
+}
